@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Điểm Trung Bình Tích Lũy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Tính Điểm Trung Bình Tích Lũy</h1>
+        <form id="gpaForm">
+            <label for="numCourses">Số môn học:</label>
+            <input type="float" id="numCourses" min="1" required>
+            <div  id="button1" >
+            <button type="button" onclick="createInputFields()">Nhập</button>
+            </div>
+            <div id="inputFields"></div>
+            <div id="button2">
+                <button type="submit">Tính</button>
+            </div>
+            
+        </form>
+        
+        <div id="result"></div>
+   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
