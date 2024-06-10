@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tính Điểm Trung Bình Tích Lũy</title>
+    <link rel="stylesheet" href="code/style.css">
+    <link rel="shortcut icon" href="./img/logotile.jpg"/>
+</head>
+<body>
+    <div>
+        <img src="img/logo1.png" alt="xem điểm" width="100" height="50">
+        <a target="_blank" href="https://sv.ut.edu.vn/">Xem điểm</a>
+    </div>
+   
+    <div class="background-image"></div>
+    <div class="container">
+        <h1>Tính Điểm Trung Bình Tích Lũy</h1>
+        <form id="gpaForm">
+            <label for="numCourses " min="1">Số môn học:</label>
+            <input type="number" id="numCourses" min="1" required>
+            <div id="button1">
+                <button type="button" onclick="createInputFields()">Nhập</button>
+            </div>
+            <div id="inputFields" > </div>
+            <div id="button2">
+                <button type="submit">Tính</button>
+            </div>
+        </form>
+
+        <div id="result"></div>
+    </div>
+    
+    <script src="/code/script.js"></script>
+    
+    <div  class="footer">
+        <ul>
+            <li><a href="" ><h3>Tải lại trang</h3></a></li>
+            <li><a href="mailto:hothanhThien119@gmail.com?subject=Feedback&body=Message">Gmail của tui</a></li>
+            <li>Cre: Hồ Thành Thiện</li>
+            <li><a href="">Link code</a></li>
+        </ul>
+    </div>
+</body>
+</html>
