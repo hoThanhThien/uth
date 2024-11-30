@@ -8,12 +8,11 @@ function createInputFields() {
             <div>
                 <label for="course${i}">Môn ${i + 1}:</label>
                 <input type="number" id="credits${i}" min="1" placeholder="Số tín chỉ" required>
-                <input type="float" id="grade${i}" min="0" max="4" placeholder="Điểm (0 - 4)" required>
+                <input type="float" id="grade${i}"  min="1" max="4" placeholder="Điểm (0 - 4)" required>
             </div>
         `;
     }
 }
-
 document.getElementById('gpaForm').addEventListener('submit', function(e) {
     e.preventDefault();
     const numCourses = document.getElementById('numCourses').value;
